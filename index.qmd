@@ -1,0 +1,322 @@
+---
+pagetitle: "For Ansu"
+---
+
+<!--
+  ✏️  HOW TO EDIT
+  Every section below is a block of HTML. Text you can rewrite is marked ✏️.
+  Photos live in images/. Colours and fonts are at the top of assets/css/love.css.
+-->
+
+<!-- ───────────────────────── 0. THE HEART SHE HOLDS (covers the page until it fills) ───────────────────────── -->
+```{=html}
+<div class="lv-gate">
+  <div class="lv-gate-inner">
+    <button class="lv-heartbtn" type="button" aria-label="Open">
+      <svg class="lv-heart-svg" viewBox="0 0 100 92" aria-hidden="true">
+        <defs><clipPath id="lvHeartClip"><path d="M50 88 C20 66 4 50 4 30 A22 22 0 0 1 50 18 A22 22 0 0 1 96 30 C96 50 80 66 50 88Z"/></clipPath></defs>
+        <g clip-path="url(#lvHeartClip)"><rect class="lv-heart-fill" x="0" y="0" width="100" height="92"/></g>
+        <path class="lv-heart-outline" d="M50 88 C20 66 4 50 4 30 A22 22 0 0 1 50 18 A22 22 0 0 1 96 30 C96 50 80 66 50 88Z"/>
+      </svg>
+    </button>
+    <p class="lv-gate-name">Ansu</p>
+  </div>
+</div>
+```
+
+<!-- ───────────────────────── 1. HERO ───────────────────────── -->
+```{=html}
+<section id="home" class="lv-hero" data-nav="Home">
+  <div class="lv-petals" aria-hidden="true"></div>
+  <div class="lv-hero-content">
+    <div class="lv-portrait"><img src="images/hero/portrait.jpg" alt="Ansu smiling under the lights"></div>
+    <p class="lv-kicker">to the love of my life</p>
+    <svg class="lv-sign" viewBox="0 0 600 200" role="img" aria-label="Ansu"><text x="50%" y="70%" text-anchor="middle">Ansu</text></svg>
+    <p class="lv-tagline">the reason my heart finally feels at home</p>
+    <span class="lv-cue" aria-hidden="true"></span>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 2. MESSAGES I NEVER SENT ───────────────────────── -->
+```{=html}
+<section id="messages" class="lv-sec lv-sec-dark" data-nav="Messages">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Messages I Never Sent You</h2><p class="lv-sub">until now</p></div>
+    <div class="lv-phone lv-reveal">
+      <div class="lv-phone-screen">
+        <div class="lv-phone-top">
+          <span class="lv-avatar"><img src="images/hero/portrait.jpg" alt=""></span>
+          <span class="lv-contact">Ansu <span class="lv-heart-ico">♥</span><small>online</small></span>
+        </div>
+        <div class="lv-thread">
+          <p class="lv-time">11:47 PM</p>
+          <!-- ✏️ Each line is one message bubble -->
+          <p class="lv-msg">Hey. You up?</p>
+          <p class="lv-msg">I've started this message so many times.</p>
+          <p class="lv-msg">You laughed today and I completely forgot what I was saying.</p>
+          <p class="lv-msg">I think about you way more than I would ever admit.</p>
+          <p class="lv-msg">You make everything feel lighter. Even me.</p>
+          <p class="lv-msg">I don't know how to say it properly, so I'll just say it.</p>
+          <p class="lv-msg lv-msg-big">I love you, Ansu.</p>
+          <div class="lv-typing" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="lv-receipt">Seen ♥</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── QUOTE ───────────────────────── -->
+```{=html}
+<section class="lv-quote" style="background-image: url('images/gallery/glow.jpg')">
+  <div class="lv-quote-inner lv-reveal">
+    <!-- ✏️ -->
+    <p class="lv-words">Of all the places I've ever been, you are my favourite.</p>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 3. DEVELOPING POLAROIDS ───────────────────────── -->
+```{=html}
+<section id="you" class="lv-sec" data-nav="You">
+  <div class="lv-inner lv-inner-wide">
+    <div class="lv-head"><h2 class="lv-title">Every Version of You</h2><p class="lv-sub">every single one, my favourite</p></div>
+    <div class="lv-reel-wrap">
+      <button class="lv-reel-btn lv-prev" type="button" aria-label="Previous photo">‹</button>
+      <div class="lv-reel">
+        <!-- ✏️ Caption under each photo -->
+        <figure class="lv-pol" style="--rot:-2deg"><div class="lv-pol-img"><img src="images/chapters/light.jpg" alt="Ansu in teal, under the lights"></div><figcaption>In every crowd, I find you first</figcaption></figure>
+        <figure class="lv-pol" style="--rot:2deg"><div class="lv-pol-img"><img src="images/chapters/calm.jpg" alt="Ansu smiling in warm lamplight"></div><figcaption>My calm</figcaption></figure>
+        <figure class="lv-pol" style="--rot:-1deg"><div class="lv-pol-img"><img src="images/chapters/real.jpg" alt="Ansu in a red kurta"></div><figcaption>Even on drained days, you shine</figcaption></figure>
+        <figure class="lv-pol" style="--rot:3deg"><div class="lv-pol-img"><img src="images/chapters/winner.jpg" alt="Ansu with her team and a champions trophy"></div><figcaption>My champion</figcaption></figure>
+        <figure class="lv-pol" style="--rot:-3deg"><div class="lv-pol-img"><img src="images/chapters/warmth.jpg" alt="Ansu in a navy saree, holding a baby"></div><figcaption>The way you hold the ones you love</figcaption></figure>
+        <figure class="lv-pol" style="--rot:1deg"><div class="lv-pol-img"><img src="images/gallery/lamps.jpg" alt="Ansu between two glowing lamps"></div><figcaption>You, and the whole room glows</figcaption></figure>
+        <figure class="lv-pol" style="--rot:-2deg"><div class="lv-pol-img"><img src="images/gallery/saree.jpg" alt="Ansu in a saree"></div><figcaption>Grace, in every thread</figcaption></figure>
+        <figure class="lv-pol" style="--rot:2deg"><div class="lv-pol-img"><img src="images/gallery/glow.jpg" alt="Ansu in soft light"></div><figcaption>Soft light, softer heart</figcaption></figure>
+      </div>
+      <button class="lv-reel-btn lv-next" type="button" aria-label="Next photo">›</button>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 4. PHOTO BOOTH ───────────────────────── -->
+```{=html}
+<section id="booth" class="lv-sec lv-sec-alt" data-nav="Booth">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Us, in Three Seconds</h2><p class="lv-sub">silly, sulky, and completely in love</p></div>
+    <div class="lv-booth lv-reveal">
+      <button class="lv-booth-head" type="button" aria-label="Print the strip again">
+        <span class="lv-booth-sign">photo booth</span>
+        <span class="lv-bulbs" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        <span class="lv-slot" aria-hidden="true"></span>
+      </button>
+      <div class="lv-strip-mask">
+        <div class="lv-strip">
+          <img src="images/strip/1.jpg" alt="Kissy faces" data-zoom>
+          <img src="images/strip/2.jpg" alt="Pouting together" data-zoom>
+          <img src="images/strip/3.jpg" alt="Smiling together" data-zoom>
+          <p class="lv-strip-date">A ♥ J</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 5. MIRROR ───────────────────────── -->
+```{=html}
+<section id="mirror" class="lv-sec" data-nav="Mirror">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">If Only You Could See What I See</h2></div>
+    <div class="lv-mirror-wrap lv-reveal">
+      <div class="lv-mirror" role="button" tabindex="0" aria-label="Look again">
+        <img class="lv-mirror-img lv-mirror-a" src="images/mirror/a.jpg" alt="Ansu smiling at her reflection">
+        <img class="lv-mirror-img lv-mirror-b" src="images/mirror/b.jpg" alt="Ansu smiling softly at her reflection">
+        <span class="lv-mirror-shine" aria-hidden="true"></span>
+      </div>
+      <!-- ✏️ First line shows first; data-alt shows after the mirror is tapped -->
+      <p class="lv-mirror-line" data-alt="I see my whole world, smiling back at me.">You see a reflection.</p>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 6. OUR LITTLE WORLD ───────────────────────── -->
+```{=html}
+<section id="us" class="lv-sec lv-sec-alt" data-nav="Us">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Our Little World</h2><p class="lv-sub">the moments I keep pinned to my heart</p></div>
+    <div class="lv-board">
+      <!-- ✏️ Caption under each photo -->
+      <figure class="lv-pin lv-reveal" style="--rot:-4deg" data-zoom><img src="images/gallery/cafe-laugh.jpg" alt="Laughing together at a café"><figcaption>Your laugh, my favourite sound</figcaption></figure>
+      <figure class="lv-pin lv-reveal" style="--rot:3deg" data-zoom><img src="images/us/denim.jpg" alt="Together, smiling"><figcaption>Right where I belong</figcaption></figure>
+      <figure class="lv-pin lv-reveal" style="--rot:-2deg" data-zoom><img src="images/us/together.jpg" alt="Together on a journey"><figcaption>Wherever we're going</figcaption></figure>
+      <figure class="lv-pin lv-reveal" style="--rot:4deg" data-zoom><img src="images/gallery/cafe.jpg" alt="Selfie at a café"><figcaption>Every table, better with you</figcaption></figure>
+      <figure class="lv-pin lv-reveal" style="--rot:-3deg" data-zoom><img src="images/gallery/kitty.jpg" alt="Black and white selfie together"><figcaption>Still full of colour</figcaption></figure>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── QUOTE ───────────────────────── -->
+```{=html}
+<section class="lv-quote" style="background-image: url('images/us/together.jpg')">
+  <div class="lv-quote-inner lv-reveal">
+    <!-- ✏️ -->
+    <p class="lv-words">With you, even the most ordinary day feels like a love story.</p>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 7. LOVE METER ───────────────────────── -->
+```{=html}
+<section id="meter" class="lv-sec" data-nav="How much">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">How Much Do I Love You?</h2></div>
+    <div class="lv-meter lv-reveal" style="--v:0">
+      <span class="lv-meter-heart" aria-hidden="true">♥</span>
+      <p class="lv-meter-value">0%</p>
+      <!-- ✏️ Phrases shown as the heart moves along (low → high). The last one appears at 100. -->
+      <p class="lv-meter-text"
+         data-steps="More than words can hold|More than yesterday|More than all the stars we've counted|More than I knew a heart could|More than forever is long"
+         data-max="There isn't a number big enough.">&nbsp;</p>
+      <input class="lv-range" type="range" min="0" max="100" value="0" aria-label="How much">
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 8. JAR OF REASONS ───────────────────────── -->
+```{=html}
+<section id="jar" class="lv-sec lv-sec-alt" data-nav="Reasons">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">A Jar Full of Reasons</h2><p class="lv-sub">I could never fit them all</p></div>
+    <div class="lv-jar-stage lv-reveal">
+      <p class="lv-note-card" aria-live="polite"></p>
+      <button class="lv-jar" type="button" aria-label="Take a reason from the jar">
+        <span class="lv-jar-lid"></span><span class="lv-jar-neck"></span><span class="lv-jar-body"></span>
+      </button>
+      <p class="lv-note-count"></p>
+      <!-- ✏️ One reason per line. The last line appears after all of them. -->
+      <ul class="lv-reasons" hidden>
+        <li>The way your eyes close when you really smile.</li>
+        <li>You make me feel safe enough to be completely myself.</li>
+        <li>You turn my worst days around without even trying.</li>
+        <li>You're strong and soft at the same time.</li>
+        <li>Every silly face you've ever pulled with me.</li>
+        <li>You listen like nothing else in the world matters.</li>
+        <li>The way you hold the people you love.</li>
+        <li>Your laugh. Especially when it's at my jokes.</li>
+        <li>You never let me give up on myself.</li>
+        <li>You make ordinary places feel like memories.</li>
+        <li>The way you say my name.</li>
+        <li>You chose me. I still can't believe my luck.</li>
+        <li class="lv-reasons-final">…and a thousand more I haven't found the words for yet.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 9. FOGGY WINDOW ───────────────────────── -->
+```{=html}
+<section id="window" class="lv-sec" data-nav="Secret">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Just Between Us</h2></div>
+    <div class="lv-window lv-reveal">
+      <img src="images/us/forehead.jpg" alt="Jithin kissing Ansu's forehead">
+      <!-- ✏️ Words revealed under the fog -->
+      <p class="lv-window-text">Home is wherever you are.</p>
+      <span class="lv-bar-v" aria-hidden="true"></span><span class="lv-bar-h" aria-hidden="true"></span>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 10. FOLDED LETTER ───────────────────────── -->
+```{=html}
+<section id="letter" class="lv-sec lv-sec-alt" data-nav="Letter">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">A Letter for You</h2><p class="lv-sub">from me, with all of my heart</p></div>
+    <div class="lv-fold-stage lv-reveal">
+      <div class="lv-folded" role="button" tabindex="0" aria-label="Unfold the letter"></div>
+    </div>
+    <!-- ✏️ Your letter -->
+    <div class="lv-letter-src" hidden>
+      <p class="lv-l-open">My Ansu,</p>
+      <p>I don't think I ever told you what it felt like the first time I realised I loved you. It wasn't loud. It was quiet, like a light turning on in a room I didn't know was dark.</p>
+      <p>Since then, you've become my favourite part of every day. The voice I want to hear first. The face I look for in every crowd. The person I want to tell everything to, the good, the bad, and the completely silly.</p>
+      <p>You make me laugh until I can't breathe. You hold me when I'm tired of holding myself together. You make ordinary moments, a café, a train ride, a mirror selfie, feel like something worth remembering forever.</p>
+      <p>So I want you to know this, on every day you read it: you are loved. Completely. Endlessly. Exactly as you are.</p>
+      <p>Whatever comes next, I want to face it with your hand in mine.</p>
+      <p class="lv-l-sign">Forever yours,<br>Jithin</p>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 11. LOVE LOCKS ───────────────────────── -->
+```{=html}
+<section id="promises" class="lv-sec lv-sec-dark" data-nav="Promises">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Promises I'm Locking In</h2><p class="lv-sub">no keys, no take-backs</p></div>
+    <div class="lv-fence lv-reveal">
+      <span class="lv-rail" aria-hidden="true"></span>
+      <!-- ✏️ One promise per lock -->
+      <div class="lv-locks">
+        <button class="lv-lock" type="button" data-promise="I'll hold your hand, especially when it's hard."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll listen, even to the things you don't say."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll make you laugh on the days you forget how."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll celebrate every win of yours like it's my own."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll be your calm when the world gets loud."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll keep choosing you, every single day."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll grow with you, and never away from you."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+        <button class="lv-lock" type="button" data-promise="I'll love you a little more tomorrow than today."><span class="lv-shackle"></span><span class="lv-lbody">A♥J</span></button>
+      </div>
+    </div>
+    <p class="lv-promise" aria-live="polite"></p>
+    <div class="lv-key" aria-hidden="true"><span class="lv-key-bow"></span><span class="lv-key-blade"></span></div>
+    <!-- ✏️ Shown once every lock is closed -->
+    <p class="lv-promise-final">Every one of them, locked forever. I threw away the key.</p>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 12. DAYS SINCE (hidden until a date is set) ───────────────────────── -->
+<!-- ✏️ Put the day it all began in data-since as YYYY-MM-DD (e.g. 2023-02-14) to show this section -->
+```{=html}
+<section id="since" class="lv-sec lv-sec-alt" data-nav="Since" data-since="">
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">Every Day Since</h2><p class="lv-sub">and counting, always</p></div>
+    <div class="lv-since lv-reveal">
+      <div><span class="lv-since-n" data-unit="days">0</span><span class="lv-since-l">days</span></div>
+      <div><span class="lv-since-n" data-unit="hours">0</span><span class="lv-since-l">hours</span></div>
+      <div><span class="lv-since-n" data-unit="minutes">0</span><span class="lv-since-l">minutes</span></div>
+      <div><span class="lv-since-n" data-unit="seconds">0</span><span class="lv-since-l">seconds</span></div>
+    </div>
+  </div>
+</section>
+```
+
+<!-- ───────────────────────── 13. LANTERNS & FINAL HEART ───────────────────────── -->
+```{=html}
+<section id="lanterns" class="lv-sec lv-sec-night" data-nav="Lanterns">
+  <div class="lv-sky" aria-hidden="true"></div>
+  <div class="lv-inner">
+    <div class="lv-head"><h2 class="lv-title">For Every Dream of Yours</h2></div>
+    <div class="lv-lantern-stage">
+      <div class="lv-lantern-row" data-lanterns="5"></div>
+      <button class="lv-release" type="button">Let them fly</button>
+      <!-- ✏️ -->
+      <p class="lv-lantern-msg" aria-live="polite">Every dream of yours, I'll be right beside you, chasing it with you.</p>
+      <button class="lv-final-heart" type="button" aria-label="All my love"><span></span></button>
+      <p class="lv-final-msg" aria-live="polite">I love you, Ansu.<small>today, tomorrow, and every day after</small></p>
+    </div>
+  </div>
+</section>
+
+<footer class="lv-footer">Made with all my love, for Ansu · yours, always</footer>
+```
